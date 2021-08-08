@@ -20,7 +20,7 @@ dictionary = dict()  # vocab.txt, load to dictionary
 'task'
 # we arrive it from task, and then, if needed, we modify task/model/criterion/optimizer/etc...
 
-# set up task
+# set up tasko
 task_self = tasks.setup_task(args)
 task_translation = tasks.translation.TranslationTask(args, src_dict= dictionary, tgt_dict= dictionary)
 
