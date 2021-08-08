@@ -1,0 +1,39 @@
+from sklearn import datasets
+from sklearn.model_selection import $split$  # train_val split : KFold, LeaveOneOut, StratifiedKFold, ShuffleSplit
+from sklearn.model_selection import train_test_split
+from sklearn import preprocessing
+from sklearn.model_selection import cross_val_score
+import sklearn.metrics as metrics
+import joblib
+from sklearn.$modelclass$ import $model$  # from model class import model
+
+model_path = $model_path$  # .pickle
+
+# datasets
+metadata = datasets.load_$dataset$()  # datasets
+data = metadata.data
+label = metadata.target
+
+# todo : preprocessing
+# scaler = preprocessing.StandardScaler().fit(data)
+# scaler.transform(data)
+
+# dataset split
+data_train, data_test, label_train, label_test = train_test_split(data, label, test_size=$test_size$)
+
+# model and cross validation
+model = $model$()
+cv = $split$()
+scores = cross_val_score(model, data_train, label_train, cv=cv)  # todo : can your model use cross validation ?
+# model.fit(data_train, label_train) $END$
+
+# save model
+joblib.dump(model, $model_path$)
+# model = joblib.load($model_path$)
+
+# prediction
+label_pred = model.predict(data_test)
+
+# evaluation
+# model.score(data_test, label_test)
+print(metrics.classification_report(label_test, label_pred))
