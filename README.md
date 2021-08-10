@@ -51,7 +51,7 @@ Code notebook for python package learning.
     
     - [ ] :waxing_crescent_moon: **​(corenlp, spacy, jieba)** : chinese processing, language processing, etc.
     
-    **`we put gensim and glove together in this code notebook.`
+    `we put gensim and glove together in this code notebook.`
     
   - Audio
     - [ ] :new_moon: ​**torchaudio** : audio processing toolkit in <u>pytorch</u>.
