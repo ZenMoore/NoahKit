@@ -31,7 +31,7 @@ Code notebook for python package learning.
   - Vision
     - [x] :moon: **torchvision** : vision processing toolkit in <u>pytorch</u>.
     - [x] :first_quarter_moon: ​**cv2** : <u>opencv</u> in python.
-    - [ ] :new_moon: ​**pillow** : python imaging library.
+    - [x] :first_quarter_moon: ​**pillow** : python imaging library.
   - Text
     - [x] :first_quarter_moon: **torchtext** : natural language data processing for <u>pytorch</u>.
     
@@ -48,6 +48,8 @@ Code notebook for python package learning.
     - [x] :first_quarter_moon: ​**hugging face** : sota <u>pre-trained language mode</u>l toolkit.
     
     - [x] :first_quarter_moon: ​**fairseq** : a <u>seq2seq</u> learning toolkit for <u>pytorch</u> by <u>fair</u>.
+    
+    - [ ] :waxing_crescent_moon: **allennlp** : natural language processing toolkit based on <u>pytorch</u> by <u>Allen</u>.
     
     - [ ] :waxing_crescent_moon: **​(corenlp, spacy, jieba)** : chinese processing, language processing, etc.
     
