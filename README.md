@@ -72,6 +72,8 @@ NLP/CV/etc. packages.
 
 - [x] :first_quarter_moon: ​**fairseq** : a <u>seq2seq</u> learning toolkit for <u>pytorch</u> by <u>fair</u>.
 
+- [ ] :new_moon: **EDA** : easy data augmentation techniques for text.
+
 - [ ] :new_moon: **pattern** : simpler to get started than nltk.
 
 - [ ] :new_moon: [**pyenchant**](http://link.zhihu.com/?target=https%3A//github.com/rfk/pyenchant) : easy access to dictionaries
@@ -81,6 +83,8 @@ NLP/CV/etc. packages.
   > mainly for ELMo, KnowBERT, etc.
 
 - [ ] :new_moon: **seqeval** : evaluation for sequence labelling.
+
+- [ ] :new_moon: **sentence transformers** :  compute dense vector <u>representations</u> for <u>sentences, paragraphs, and images.</u>
 
 - [ ] :waxing_crescent_moon: **​(corenlp, spacy, jieba)** : chinese processing, language processing, etc.
 
@@ -121,7 +125,8 @@ programming aids.
 
 - [x] :first_quarter_moon: **threading** : <u>multithreading</u>.
 - [x] :first_quarter_moon: **multiprocessing** : <u>multiprocessing</u>.
-- [ ] :new_moon: **deepspeed** : microsoft <u>training acceleration</u> toolkit.
+- [ ] :waxing_crescent_moon: **deepspeed** : microsoft <u>training acceleration</u> toolkit.
+- [ ] :new_moon: **bminf** : a <u>low-resource inference</u> package for <u>large-scale pretrained language models (PLMs)</u>.
 
 `We put threading and multiprocessing together in this code notebook.`
 
