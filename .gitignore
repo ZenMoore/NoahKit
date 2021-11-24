@@ -1,3 +1,4 @@
 .idea/
 asset/
 default.py
+applied_ai/text/gensim_glove/gensim/model.tfidf
