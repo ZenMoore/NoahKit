@@ -38,7 +38,7 @@ integrated machine/deep/reinforcement learning toolkits.
 - [ ] :new_moon: **autokeras** : <u>automl</u> system based on <u>keras</u>. 
 - [ ] :new_moon: **pytorch_geometric** : <u>geometric deep learning</u> extension library for pytorch.
 - [x] :first_quarter_moon: **textbrewer**: nlp <u>knowledge distillation</u> toolkit.
-- [ ] :new_moon: **OpenPrompt** : <u>prompt tuning</u> toolkit developed by Tsinghua.
+- [x] :first_quarter_moon: **OpenPrompt** : <u>prompt tuning</u> toolkit developed by Tsinghua.
 - [ ] :new_moon: **OpenAttack** : an open-source package for <u>texual adversarial attack</u>.
 - [ ] :new_moon: **PyCID**: a python library for <u>causal influence</u> diagrams.
 
@@ -125,7 +125,7 @@ programming aids.
 
 - [x] :first_quarter_moon: **threading** : <u>multithreading</u>.
 - [x] :first_quarter_moon: **multiprocessing** : <u>multiprocessing</u>.
-- [ ] :waxing_crescent_moon: **deepspeed** : microsoft <u>training acceleration</u> toolkit.
+- [x] :first_quarter_moon: **deepspeed** : microsoft <u>training acceleration</u> toolkit.
 - [ ] :new_moon: **bminf** : a <u>low-resource inference</u> package for <u>large-scale pretrained language models (PLMs)</u>.
 
 `We put threading and multiprocessing together in this code notebook.`

@@ -1,0 +1,55 @@
+{
+    "fp16": {
+        "enabled": true,
+        "loss_scale": 0,
+        "loss_scale_window": 1000,
+        "hysteresis": 2,
+        "min_loss_scale": 1,
+        "initial_scale_power": 16
+    },
+
+    "zero_optimization": {
+        "stage": 2,
+        "allgather_partitions": true,
+        "allgather_bucket_size": 2e8,
+        "overlap_comm": true,
+        "reduce_scatter": true,
+        "reduce_bucket_size": 2e8,
+        "contiguous_gradients": true,
+        "cpu_offload": false,
+        "find_unused_parameters": true
+    },
+
+    "zero_allow_untested_optimizer": true,
+
+    "optimizer": {
+        "type": "AdamW",
+        "params": {
+            "lr": 2e-5,
+            "betas": [0.8, 0.999],
+            "eps": 1e-8,
+            "weight_decay": 1e-2
+        }
+    },
+
+    "scheduler": {
+        "type": "OneCycle",
+        "params": {
+            "cycle_first_step_size": 5000,
+            "cycle_first_stair_count": 500,
+            "cycle_second_step_size": 5000,
+            "cycle_second_stair_count": 50,
+            "decay_step_size": 1000,
+            "cycle_min_lr": 1e-5,
+            "cycle_max_lr": 3e-5,
+            "decay_lr_rate": 0.001,
+            "cycle_momentum": true,
+            "cycle_min_mom": 0.85,
+            "cycle_max_mom": 0.99,
+            "decay_mom_rate": 0.0
+        }
+    },
+
+    "steps_per_print": 500,
+    "wall_clock_breakdown": false
+}

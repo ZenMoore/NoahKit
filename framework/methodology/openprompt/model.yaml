@@ -1,0 +1,4 @@
+plm:
+  model_path: '/nfs/users/wangzekun/repos/fewqa/assets/models/mengzi-bert-base-fin'
+  model_name: 'bert'
+  specials_to_add: None
